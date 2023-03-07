@@ -32,7 +32,7 @@ const GlobalNav = ({ NAV }) => {
                             </ul>} 
                             &&써서 쓰면 이렇게 된다
                             */ }
-                            
+
                         </li>
                     )
                 })
@@ -40,5 +40,25 @@ const GlobalNav = ({ NAV }) => {
         </ul>
     )
 }
+
+//conponents
+{/* <Aside toggle={loginOn}>
+	안녕하세요
+</Aside>
+//style
+export const Aside = styled.aside`
+    position:fixed;
+    right:0;
+    top:0; 
+    z-index:9;
+    width:50vw;
+    height:100%;
+    padding:2rem;
+    background:#fff;
+    transform:${props=>(props.toggle ? 'translateX(0)': 'translateX(100%)')};
+    transition:all .5s ease;
+    box-sizing:border-box;
+`
+   */}
 
 export default GlobalNav;
